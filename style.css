@@ -1,0 +1,43 @@
+#lo-engage-ext-container{
+    display: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100%;
+    flex-wrap: ;}
+
+div {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left{
+    padding: 10px;
+    background-color: rgb(7, 191, 197);    
+}
+
+.right{
+    padding: 10px;
+    background-color: rgb(143, 7, 197);    
+}
+
+.item{
+    margin-top: 10px;
+    height: 100%;
+    display: flex;
+    box-shadow: 4px 4px 3px -3px rgba(0,0,0,0.85);
+    background-color:darksalmon;
+}
+
+.item:first-child{
+    margin-top: 0px;
+}
